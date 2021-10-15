@@ -1,0 +1,71 @@
+/* Paleta de Cores */
+.loginForm {
+  width: 600px;
+  height: 600px;
+  background: #2EC4B6;
+  border-radius: 40px;
+  margin: 100px auto auto auto;
+}
+
+.loginUsername {
+  padding: 40px 0px 0px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.loginIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.loginLabel {
+  padding-left: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #011627;
+}
+
+.formInput {
+  width: 520px;
+  height: 40px;
+  margin: 15px 40px 0px 40px;
+  background: #FDFFFC;
+  border: 2px solid #011627;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 42px;
+  color: #011627;
+  padding-left: 10px;
+}
+
+.loginBtn {
+  margin: 17px 10px 0 0;
+  height: 50px;
+  width: 150px;
+  background: #FDFFFC;
+  border: 1px solid #011627;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 50px 225px auto 225px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.loginBtn:hover {
+  background: #d4d4d4;
+}
+/*# sourceMappingURL=login.css.map */

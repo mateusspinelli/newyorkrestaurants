@@ -1,0 +1,118 @@
+.addreviewContent {
+  width: 700px;
+  height: 700px;
+  background: #2EC4B6;
+  border-radius: 20px;
+  margin: 50px auto 0 auto;
+}
+
+.addreviewContentSuccess {
+  width: 450px;
+  margin: 0 auto 0 auto;
+  padding-top: 50px;
+}
+
+.addreviewContentSuccess h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #011627;
+}
+
+.addreviewContentSuccessBtn {
+  width: 400px;
+  height: 60px;
+  background: #FDFFFC;
+  border: 2px solid #011627;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  margin: 50px auto 0px 25px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #011627;
+}
+
+.addreviewContentSuccessBtn:hover {
+  background: #d4d4d4;
+}
+
+.addreviewContentTitle {
+  padding: 60px 0 0 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.addreviewContentTitle img {
+  height: 60px;
+  width: 60px;
+}
+
+.addreviewContentTitle label {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  color: #011627;
+  padding: 10px 0 0 20px;
+}
+
+.addreviewContentInput {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 50px 0 0 0;
+}
+
+.addreviewContentInput textarea {
+  width: 600px;
+  height: 400px;
+  margin: 0 auto 0 auto;
+  background: #FDFFFC;
+  border: 1px solid #011627;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  resize: none;
+  padding: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #011627;
+}
+
+.addreviewContentInput button {
+  width: 200px;
+  height: 50px;
+  margin: 30px auto auto auto;
+  background: #FDFFFC;
+  border: 2px solid #011627;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #011627;
+}
+
+.addreviewContentInput button:hover {
+  background: #d4d4d4;
+}
+/*# sourceMappingURL=add-review.css.map */

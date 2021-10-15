@@ -1,0 +1,57 @@
+/* Paleta de Cores */
+/* Header */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap");
+.header {
+  background-color: #2EC4B6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  height: 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.headerLogo {
+  height: 60px;
+  width: 60px;
+  padding: 10px;
+}
+
+.headerLink {
+  color: #011627;
+  text-decoration: none;
+}
+
+.headerTitle {
+  margin-right: auto;
+  padding: 17px 0px 20px 10px;
+  font-family: Dancing Script;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  color: #011627;
+}
+
+.headerBtn {
+  margin: 17px 10px 0 0;
+  height: 50px;
+  background: #FDFFFC;
+  border: 1px solid #011627;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.headerBtnText {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
+/*# sourceMappingURL=app.css.map */

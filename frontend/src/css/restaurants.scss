@@ -1,0 +1,185 @@
+$preto: #011627;
+$branco: #FDFFFC;
+$azul: #2EC4B6;
+$vermelho: #E71D36;
+$amarelo: #FF9F1C;
+
+
+.restaurantsName{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+
+    margin: 50px 0px 40px 70px;
+}
+
+
+.restaurantsContent{
+    display: flex;
+    margin: 20px 0 0 70px;
+}
+
+
+.restaurantsContent p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: $preto;
+    padding: 15px 0px 0px 10px;
+}
+
+.restaurantsContent span{
+    font-weight: bold;
+}
+
+
+.restaurantsIcon{
+    height: 60px;
+    width: 60px;
+}
+
+
+.restaurantsReviewsTitle{
+    display: flex;
+    margin: 50px 0px 0px 35px;
+}
+
+.restaurantsReviewsTitle h4{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.restaurantsReviewsBtn{
+    width: 200px;
+    height: 50px;
+    background: $branco;
+    border: 1px solid $preto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 15vw;
+
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: $preto;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+.restaurantsReviewsBtn:hover{
+    background: #d4d4d4;
+}
+
+
+
+.restaurantsCardContainer{
+    margin: 40px 0 40px 40px; 
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
+	grid-column-gap: 0;
+    grid-row-gap: 40px;
+	padding-inline-start: 0;
+}
+
+.restaurantsCard{
+    width: 430px;
+    height: 300px;
+    background: $azul;
+    border-radius: 20px;
+}
+
+.restaurantsCard hr{
+    border: 1px solid $preto;
+}
+
+.restaurantsCardUser{
+    display: flex;
+    margin: 15px 0 0 15px;
+}
+
+.restaurantsCardUser h3{
+    margin: 5px 0 0 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 21px;
+    color: $preto;
+}
+
+.restaurantsCardIcon{
+    height: 30px;
+    width: 30px;
+}
+
+.restaurantsCardText{
+    margin: 5px 0 0 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: $preto;
+}
+
+.restaurantsCardContent{
+    height: 180px;
+}
+
+.restaurantsCardContentBtns{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 120px;
+}
+
+.restaurantsCardContentBtn{
+    width: 150px;
+    height: 30px;
+    background: $branco;
+    border: 1px solid $preto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+
+    text-decoration: none;
+    color: $preto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.restaurantsCardContentBtn:hover{
+    background: #d4d4d4;
+}
+
+.restaurantsCardContentDate{
+    display: flex;
+    margin: 0px 0px 0px 15px;
+}
+
+.restaurantsCardContentDate p{
+    padding: 5px 0 0 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.restaurantReviewsText{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+}

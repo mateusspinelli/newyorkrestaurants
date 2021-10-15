@@ -1,0 +1,122 @@
+$preto: #011627;
+$branco: #FDFFFC;
+$azul: #2EC4B6;
+$vermelho: #E71D36;
+$amarelo: #FF9F1C;
+
+.addreviewContent{
+    width: 700px;
+    height: 700px;
+    background: $azul;
+    border-radius: 20px;
+    margin: 50px auto 0 auto;
+}
+
+.addreviewContentSuccess{
+    width: 450px;
+    margin: 0 auto 0 auto;
+    padding-top: 50px;
+}
+
+.addreviewContentSuccess h4{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: $preto;
+}
+
+.addreviewContentSuccessBtn{
+    width: 400px;
+    height: 60px;
+    background: $branco;
+    border: 2px solid $preto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 50px auto 0px 25px;
+    cursor: pointer;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: $preto;
+}
+
+.addreviewContentSuccessBtn:hover{
+    background: #d4d4d4;
+}
+
+.addreviewContentTitle{
+    padding: 60px 0 0 50px;
+    display: flex;
+}
+
+.addreviewContentTitle img{
+    height: 60px;
+    width: 60px;
+}
+
+.addreviewContentTitle label{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    color: $preto;
+    padding: 10px 0 0 20px;
+}
+
+.addreviewContentInput{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0 0 0;
+}
+
+.addreviewContentInput textarea{
+    width: 600px;
+    height: 400px;
+
+    margin: 0 auto 0 auto;
+    background: $branco;
+    border: 1px solid $preto;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    resize: none;
+
+    padding: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: $preto;
+}
+
+.addreviewContentInput button{
+    width: 200px;
+    height: 50px;
+    margin: 30px auto auto auto;
+
+    background: $branco;
+    border: 2px solid $preto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor: pointer;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: $preto;
+}
+
+.addreviewContentInput button:hover{
+    background: #d4d4d4;
+}

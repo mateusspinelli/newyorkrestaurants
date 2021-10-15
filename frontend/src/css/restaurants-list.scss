@@ -1,0 +1,284 @@
+/* Paleta de Cores */
+$preto: #011627;
+$branco: #FDFFFC;
+$azul: #2EC4B6;
+$vermelho: #E71D36;
+$amarelo: #FF9F1C;
+
+
+.searchContainer{
+    width: 99.33vw;
+    height: 500px;
+
+}
+
+.searchContainer::after{
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    opacity: 0.7;
+    top: 80px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    height: 500px;   
+}
+
+.searchContent{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.searchTitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    padding-top: 54px;
+    padding-bottom: 54px;
+}
+
+
+
+
+
+.nameForm{
+    display: flex;
+}
+
+.formNameInput{
+    width: 900px;
+    height: 60px;
+    background: $branco;
+    border-radius: 40px 0 0 40px;
+    border: none;
+    padding-left: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.formNameBtn{
+    background: none;
+    border: none;
+    height: 62px;
+    width: 60px;
+    background: $branco;
+    border-radius: 0 40px 40px 0;
+    border: none;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.formNameBtn:hover{
+    background-color: #d4d4d4;
+}
+
+.formNameBtn:focus{
+    background-color: $azul;
+}
+
+
+
+
+
+.zipForm{
+    display: flex;
+}
+
+.formZipInput{
+    width: 230px;
+    height: 60px;
+    background: $branco;
+    border-radius: 40px 0 0 40px;
+    border: none;
+    padding-left: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.formZipBtn{
+    background: none;
+    border: none;
+    height: 62px;
+    width: 60px;
+    background: $branco;
+    border-radius: 0 40px 40px 0;
+    border: none;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.formZipBtn:hover{
+    background-color: #d4d4d4;
+}
+
+.formZipBtn:focus{
+    background-color: $azul;
+}
+
+
+
+
+
+
+
+.cuisineForm{
+    display: flex;
+}
+
+.formCuisineInput{
+    width: 230px;
+    height: 60px;
+    background: $branco;
+    border-radius: 40px 0 0 40px;
+    border: none;
+    padding-left: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.formCuisineBtn{
+    background: none;
+    border: none;
+    height: 60px;
+    width: 60px;
+    background: $branco;
+    border-radius: 0 40px 40px 0;
+    border: none;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.formCuisineBtn:hover{
+    background-color: #d4d4d4;
+}
+
+.formCuisineBtn:focus{
+    background-color: $azul;
+}
+
+
+
+
+
+
+
+.cardContainer{
+    margin: 40px 0 40px 40px; 
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
+	grid-column-gap: 0;
+    grid-row-gap: 40px;
+	padding-inline-start: 0;
+}
+
+.card{
+    width: 430px;
+    height: 300px;
+    background: $azul;
+    border-radius: 20px;
+}
+
+
+.cardTitle{
+    display: flex;
+    margin: 10px;
+}
+
+
+.cardIcon{
+    width: 30px;
+    height: 30px;
+}
+
+
+.cardRestaurant{
+    margin-left: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: $preto;
+}
+
+
+.card hr{
+    border: 1px solid $preto;
+}
+
+.cardSubtitle{
+    display: flex;
+    margin: 20px;
+}
+
+
+.cardText{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: $preto;
+    margin: 7px 0px 0px 7px;
+}
+
+.cardTextB{
+    font-family: Roboto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 21px;
+    color: $preto;
+    margin: 7px 0px 0px 7px;
+}
+
+
+
+.cardButtons{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardBtn{
+    text-decoration: none;
+    width: 300px;
+    height: 40px;
+    border: none;
+    background: $branco;
+    border-radius: 10px;
+    margin: 5px auto 10px auto;
+}
+
+.cardBtnText{
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: $preto;
+    text-align: center;
+    margin: 9px 0 9px 0;
+}
+
+
+
+.searchIcon{
+    width: 30px;
+    height: 30px;
+}

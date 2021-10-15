@@ -1,0 +1,59 @@
+/* Paleta de Cores */
+$preto: #011627;
+$branco: #FDFFFC;
+$azul: #2EC4B6;
+$vermelho: #E71D36;
+$amarelo: #FF9F1C;
+
+/* Header */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+
+.header{
+    background-color: $azul;
+    display: flex;
+    width: auto;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.headerLogo{
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+}
+
+.headerLink{
+    color: $preto;
+    text-decoration: none;
+}
+
+.headerTitle{
+    margin-right: auto;
+    padding: 17px 0px 20px 10px;
+    font-family: Dancing Script;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    color: $preto;
+}
+
+.headerBtn{
+    margin: 17px 10px 0 0;
+    height: 50px;
+    background: $branco;
+    border: 1px solid $preto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.headerBtnText{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}

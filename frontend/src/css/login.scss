@@ -1,0 +1,77 @@
+/* Paleta de Cores */
+$preto: #011627;
+$branco: #FDFFFC;
+$azul: #2EC4B6;
+$vermelho: #E71D36;
+$amarelo: #FF9F1C;
+
+.loginForm{
+    width: 600px;
+    height: 600px;
+    background: $azul;
+    border-radius: 40px;
+    margin: 100px auto auto auto;
+}
+
+.loginUsername{
+    padding: 40px 0px 0px 40px;
+    display: flex;
+}
+
+
+.loginIcon{
+    width: 40px;
+    height: 40px;
+}
+
+.loginLabel{
+    padding-left: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: $preto;
+}
+
+.formInput{
+    width: 520px;
+    height: 40px;
+    margin: 15px 40px 0px 40px;
+    background: $branco;
+    border: 2px solid $preto;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 42px;
+    color: $preto;
+    padding-left: 10px;
+}
+
+
+.loginBtn{
+    margin: 17px 10px 0 0;
+    height: 50px;
+    width: 150px;
+    background: $branco;
+    border: 1px solid $preto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 50px 225px auto 225px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.loginBtn:hover{
+    background: #d4d4d4;
+}
